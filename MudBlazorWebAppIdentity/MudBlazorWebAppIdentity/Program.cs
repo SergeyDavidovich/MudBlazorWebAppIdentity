@@ -36,8 +36,8 @@ namespace MudBlazorWebAppIdentity
 
             var connectionString = builder.Configuration.GetConnectionString("SQLiteConnection") ?? throw new InvalidOperationException("Connection string 'SQLiteConnection' not found.");
 
-            builder.Services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(connectionString));
+            //builder.Services.AddDbContext<ApplicationDbContext>(options =>
+            //    options.UseSqlServer(connectionString));
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
             options.UseSqlite(connectionString));
 
