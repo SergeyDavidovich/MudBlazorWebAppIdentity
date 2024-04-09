@@ -1,5 +1,8 @@
-# MudBlazorWebAppIdentity
+## MudBlazorWebAppIdentity
 ---
+## Description
+#### Blazor 8 + MudBlazor + Identity + SQLite
+-----
 ## Credentials:
 >#### login: sd@sd.com 
 >#### password: Qwerty!1
