@@ -1,6 +1,9 @@
 ﻿@page "/weather"
 @rendermode InteractiveAuto
 
+@using Microsoft.AspNetCore.Authorization
+@attribute [Authorize]
+
 <MudPopoverProvider />
 <MudDialogProvider />
 <MudSnackbarProvider />
