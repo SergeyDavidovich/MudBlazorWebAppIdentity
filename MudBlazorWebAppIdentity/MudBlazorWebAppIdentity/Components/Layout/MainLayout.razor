@@ -1,11 +1,17 @@
 ﻿@inherits LayoutComponentBase
 
-<MudThemingProvider />
+<MudThemingProvider/>
 <MudLayout>
     <MudAppBar Elevation="1">
         <MudText Typo="Typo.h6" Class="ml-3">
             Application - login: sd@sd.com - password: Qwerty!1
         </MudText>
+        <MudSpacer />
+        <MudToggleIconButton @rendermode="InteractiveWebAssembly"
+                             Icon="@Icons.Filled.BrightnessHigh" Color="Color.Inherit" Title="Light mode"
+                             ToggledIcon="@Icons.Filled.BrightnessLow" ToggledColor="@Color.Inherit" ToggledTitle="Dark mode" />
+
+
     </MudAppBar>
     <MudDrawer @bind-Open="_drawerOpen" ClipMode="DrawerClipMode.Always" Elevation="2">
         <NavMenu />
