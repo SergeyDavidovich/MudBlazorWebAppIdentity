@@ -2,6 +2,7 @@
 ---
 ## Description
 #### Blazor 8 + MudBlazor + Identity + SQLite
+#### Project created using Visual  Studio project template `Blazor Web App`
 -----
 ## Credentials:
 >#### login: sd@sd.com 

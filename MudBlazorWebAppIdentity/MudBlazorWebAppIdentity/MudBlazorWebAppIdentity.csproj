@@ -7,6 +7,13 @@
     <UserSecretsId>aspnet-MudBlazorWebAppIdentity-c508119a-63ba-4b25-9f1c-8edfec997856</UserSecretsId>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Data\Migrations\**" />
+    <Content Remove="Data\Migrations\**" />
+    <EmbeddedResource Remove="Data\Migrations\**" />
+    <None Remove="Data\Migrations\**" />
+  </ItemGroup>
+
   
   
   <ItemGroup>
@@ -22,7 +29,6 @@
   
   
   <ItemGroup>
-    <Folder Include="Data\Migrations\" />
     <Folder Include="Data\SqlLight\" />
   </ItemGroup>
 
